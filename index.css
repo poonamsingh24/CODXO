@@ -12,17 +12,18 @@ html {
 }
 body {
   overflow: hidden;
-}
-.bg {
-  /* background-image: url("https://www.pixground.com/wp-content/uploads/2023/02/Mountain-Lake-Reflection-in-Nature-Scenery-4K-Wallpaper.jpg"); */
   background-image: url("./images/bg.jpg");
-  width: 100%;
-  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: fixed;
   position: relative;
+}
+.bg {
+  /* background-image: url("https://www.pixground.com/wp-content/uploads/2023/02/Mountain-Lake-Reflection-in-Nature-Scenery-4K-Wallpaper.jpg"); */
+
+  width: 100%;
+  height: 100vh;
 }
 .overlay {
   width: 100%;
@@ -190,7 +191,7 @@ select {
 .btn-primary {
   width: 100px;
   &:disabled {
-    background-color: rgba(65, 61, 61, 0.641);
+    background-color: rgba(83, 78, 78, 0.9);
     cursor: no-drop;
   }
 }
